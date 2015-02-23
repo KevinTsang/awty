@@ -43,5 +43,5 @@
         android:layout_centerHorizontal="true"
         android:layout_below="@+id/interval"
         android:id="@+id/button"
-        android:text="start"/>
+        android:text="Start"/>
 </RelativeLayout>
