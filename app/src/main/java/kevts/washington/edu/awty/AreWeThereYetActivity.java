@@ -49,6 +49,7 @@ public class AreWeThereYetActivity extends Activity {
                 else {
                     button.setText("Start");
                     alarmManager.cancel(pendingIntent);
+                    pendingIntent.cancel();
                 }
             }
         });
